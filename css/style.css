@@ -1,0 +1,85 @@
+/* *a very basic reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    
+    width: 100%;
+    height: 500px;
+    color: #fff;
+}
+.contain {
+    width: 80%;
+    margin: 20px auto ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+}
+h1{
+    text-align: center;
+}
+
+myTable{
+    width: 90%;
+    border: 1px solid black;
+}
+td {
+    font-size: 600%
+    text-align: center;
+    border: .5px solid black;
+    width: 200px;
+    height: 200px;
+    background-color:ghostwhite;
+}
+.river {
+    border: none;
+     width: 50px;
+     height: 200px;
+     background-color:skyblue;
+}
+
+a {
+    text-indent:20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+#go {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  transition: 0.3s;
+  font-size: 30px;
+}
+
+#person {
+    width: 120px;
+    height: 140px;
+}
+
+#monkey {
+    width: 117px;
+    height: 120px;
+}
+
+.boat{
+    width: 100px;
+    height: 60px;
+    
+}
+
+#button{
+    font-size: 30px;
+    cursor:pointer;
+}
